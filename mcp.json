@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "appflowy": {
+      "command": "python",
+      "args": ["src/appflowy_mcp.py"],
+      "cwd": "D:/DO/WEB/TOOLS/appflowy-mcp-server",
+      "env": {
+        "APPFLOWY_BASE_URL": "https://api.appflowy.io",
+        "APPFLOWY_TOKEN": "${APPFLOWY_TOKEN}"
+      }
+    }
+  }
+}
