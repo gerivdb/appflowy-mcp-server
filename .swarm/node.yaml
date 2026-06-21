@@ -1,0 +1,11 @@
+# .swarm/node.yaml - Carte d'identite holographique
+# IntentHash: 0xSWARM_NODE_GENOME_20260622
+node:
+  name: appflowy-mcp-server
+  full_name: gerivdb/appflowy-mcp-server
+  url: https://github.com/gerivdb/appflowy-mcp-server
+  layer: L4_TOOLS
+  role: "Appflowy MCP server"
+  lens: cold
+  phi_cps: 1.0
+  do_not_create: true
